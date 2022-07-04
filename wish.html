@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>wish</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+
+  <!-- font-family: 'Gowun Batang', serif; -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"><!-- icon -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" /><!-- datescript -->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+
+<body>
+  <div id="wrap">
+
+    <header>
+  
+      <!-- 메뉴누르면 나오는 바 -->
+      <div class="nav">
+        <div class="close"><img src="image/close.png" alt="close"></div>
+        <div class="nav_p">
+          <img src="image/k.png" alt="profile">
+          <h1>k</h1>
+        </div>
+        <div>
+          <ul class="clear">
+            <li><img src="image/home.png" alt="home"><span>숙소</span></li>
+            <li><img src="image/car.png" alt="car"><span>렌트카</span></li>
+          </ul>
+          <ul class="clear">
+            <li><img src="image/texi.png" alt="texi"><span>택시</span></li>
+            <li><img src="image/plaza.png" alt="plaza"><span>인기명소</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- main -->
+      <div id="top">
+        <ul>
+          <li class="menu"><img src="image/menu.png" alt="menu"></li>
+          <li class="logo"><img src="image/logo.png" alt="logo"></li>
+          <li class="ring"><img src="image/ring.png" alt="ring"></li>
+        </ul>
+      </div>
+
+     <div class="ve">
+       <img src="image/makeawish.png" alt="makeAWish">
+    </div>
+
+    </header>
+  <section>
+     <div class="boc">
+       <h4>위시리스트를 만들어보세요</h4>
+       <div class="bo1">
+         <span>원하는 숙소를,<br>
+          원하는 카테고리에 정리해보세요!</span>
+       </div>
+       <div class="bo2">
+        <p><a href="index.html">숙소 검색하기</a></p>
+       </div>
+     </div>
+
+
+    
+  </section>
+
+  <footer>
+    <div class="foot">
+      <ul>
+        <li><a href="searching.html"><img src="image/g1.png" alt="search"><span>검색</span></a></li>
+        <li><a href="wish.html"><img src="image/g2.png" alt="heart"><span>위시리스트</span></a></li>
+        <li><a href="reseve.html"><img src="image/g3.png" alt="reserve"><span>예약확인</span></a></li>
+        <li><a href="profile.html"><img src="image/g4.png" alt="profile"><span>프로필</span></a></li>
+      </ul>
+    </div>
+  </footer>
+  </div>
+
+
+  <!-- Script Source -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/swiper.jquery.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: '.swiper-pagination',
+      slidesPerView: 3,
+      paginationClickable: true,
+      spaceBetween: 30,
+      freeMode: true
+    });
+  </script>
+
+  <script src="js/index.js"></script>
+  
+<!--date  -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
+</body>
+
+</html>

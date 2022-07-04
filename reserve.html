@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>reserve</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+  
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+  <!-- font-family: 'Gowun Batang', serif; -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"><!-- icon -->
+
+  <link rel="stylesheet" href="css/nofooter.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/swiper.css">
+
+<!--swiper플러그인연결-->
+<link rel="stylesheet" href="css/swiper_style.css">
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script><!-- 3.1.0도 가능 -->
+<script type="text/javascript" src="js/swiper.js"></script> <!--swiper플러그인 스크립트연결-->
+<script type="text/javascript">
+$(function () {
+
+   var mySwiper1 = new Swiper ('.gallery1', {
+     loop: true, //순환유무	 
+     pagination: '.nav1', //네비게이션class명
+	 grabCursor: true, //커서 손모양
+	 autoplay: 3000, //자동진행
+	 effect: 'slide', // 'slide' or 'fade' or 'cube' or 'coverflow' or 'flip'
+
+     //이전 다음 버튼
+     nextButton: '.swiper-button-next',
+     prevButton: '.swiper-button-prev',
+   });
+
+
+});
+</script>
+
+
+  
+  
+</head>
+
+<body>
+  <div id="wrap">
+
+    <header>
+      <!-- main -->
+      <div id="top">
+        <a href="searching.html"><i class="material-icons">
+          arrow_back
+          </i></a>
+      </div>
+      <!-- 탑 -->
+      <div class="t2">호텔난타 제주</div>
+      <div class="tbar">
+        <ul>
+          <li><img src="image/heart.png" alt="heart"></li>
+          <li><img src="image/share.png" alt="heart"></li>
+        </ul>
+        </div>
+    </header>
+    <section>
+   <!-- swiper -->
+<div class="gallery1">
+  <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="image/232.png" alt=""></div>
+      <div class="swiper-slide"><img src="image/233.png"  alt=""></div>
+      <div class="swiper-slide"><img src="image/234.png"  alt=""></div>
+  </div>
+
+  <div class="nav1"></div>
+
+  <div class="swiper-button-prev swiper-button-white"></div>
+  <div class="swiper-button-next swiper-button-white"></div>
+</div> 
+
+
+    <!-- 기간 -->
+
+      <div class="dates_">
+        <p>	5월 23일 (월) ~ 5월 24일 (화)</p>
+      </div>
+
+       
+  <!--이미지 -->
+  <div class="image_h">
+ <!--    <img src="image/h_1.png" alt="hotelpicture"> -->
+
+      <ul>
+        <li><h3>이그제큐티브 스위트룸</h3></li>
+        <li class="red">우리 사이트에 남은 옵션 단 1개</li>
+        <li>초대형 더블침대 2개 
+          92 제곱미터발코니/도시 전망/욕조/에어컨전용/욕실평면/TV/방음 /시설테라스/무료 WiFi</li>
+          <li>최대 투숙 인원: 2</li>
+          <li>
+            기존 요금 ₩948,750 -> 현재 요금 ₩478,170 
+          </li>
+          <li class="res_b">지금예약</li>
+      </ul>
+  </div>
+
+  <div class="image_h">
+   <!--  <img src="image/h_2.png" alt="hotelpicture"> -->
+
+      <ul>
+        <li><h3>이그제큐티브 스위트룸</h3></li>
+        <li class="red">우리 사이트에 남은 옵션 단 1개</li>
+        <li>초대형 더블침대 2개 
+          92 제곱미터발코니/도시 전망/욕조/에어컨전용/욕실평면/TV/방음 /시설테라스/무료 WiFi</li>
+          <li>최대 투숙 인원: 2</li>
+          <li>
+            기존 요금 ₩948,750 -> 현재 요금 ₩478,170 
+          </li>
+          <li><p>무료 취소 (2022년 9월 23일 PM 11:59까지)</p></li>
+          <li class="res_c">지금예약</li>
+      </ul>
+  </div>
+    </section>
+    
+</div>
+
+    <!-- Script Source -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="js/index.js"></script>
+   <!-- Script Source -->
+   <script src="js/jquery-3.6.0.min.js"></script>
+   <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+   <script src="js/swiper.min.js"></script>
+   <script src="js/swiper.jquery.js"></script>
+   <script>
+     var swiper = new Swiper('.swiper-container', {
+       pagination: '.swiper-pagination',
+       slidesPerView: 3,
+       paginationClickable: true,
+       spaceBetween: 30,
+       freeMode: true
+     });
+   </script>
+ 
+   <script src="js/index.js"></script>
+   
+ <!--date  -->
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+ 
+
+
+</body>
+
+</html>
